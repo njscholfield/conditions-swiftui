@@ -15,3 +15,9 @@ struct conditions_swiftuiApp: App {
         }
     }
 }
+
+struct conditions_swiftuiApp_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
+}
